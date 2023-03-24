@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button slot ="start"></ion-back-button>
+    <ion-title>connacht</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flag_of_Connacht.svg/300px-Flag_of_Connacht.svg.png">
+<h3>Connacht Counties</h3>
+<ol>
+  <li *ngFor="let x of counties">{{x}}
+</ol>
+</ion-content>
